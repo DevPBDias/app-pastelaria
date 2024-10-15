@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import logo from "@/assets/icons/Logo.png";
 
-export default function Home() {
+const Home = () => {
   return (
     <main className="hero-bg-color w-full h-dvh content-center">
       <section className="content-center gap-12">
@@ -19,4 +19,6 @@ export default function Home() {
       </section>
     </main>
   );
-}
+};
+
+export default Home;
