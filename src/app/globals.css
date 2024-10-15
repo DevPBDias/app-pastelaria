@@ -34,11 +34,11 @@ body {
     color: var(--primary);
   }
 
-  .main-cta {
-    @apply bg-secondary text-primary font-bold text-3xl h-12 py-2 px-12 rounded-xl;
-  }
-
   .content-center {
     @apply flex flex-col justify-center items-center;
+  }
+
+  .main-cta {
+    @apply bg-secondary text-primary content-center font-bold text-3xl h-12 py-4 px-24 rounded-xl;
   }
 }
