@@ -13,22 +13,22 @@ const Menu = () => {
       <section className="w-1/2 content-center-row flex-wrap gap-32">
         <ChoiceBtn
           name="3 INGREDIENTES 15CM - R$ 17,00"
-          route="/salt/ingredients"
+          route="/salt/3-ingredients"
           sizeText="text-2xl"
         />
         <ChoiceBtn
           name="4 INGREDIENTES 20CM - R$ 21,00"
-          route="/salt/ingredients"
+          route="/salt/4-ingredients"
           sizeText="text-2xl"
         />
         <ChoiceBtn
           name="5 INGREDIENTES 25CM - R$ 25,00"
-          route="/salt/ingredients"
+          route="/salt/5-ingredients"
           sizeText="text-2xl"
         />
         <ChoiceBtn
           name="PASTEL PRONTO 15CM - R$ 15,00"
-          route="/salt/made"
+          route="/basket/1-made"
           sizeText="text-2xl"
         />
       </section>
