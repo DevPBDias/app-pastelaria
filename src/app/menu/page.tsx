@@ -5,22 +5,24 @@ import React from "react";
 
 const Menu = () => {
   return (
-    <main>
+    <main className="px-36 py-28 content-center-col gap-16">
       <OrderBtn />
-      <h1>COMECE O SEU PEDIDO, ESCOLHENDO O QUE DESEJA ABAIXO.</h1>
-      <section>
+      <h1 className="font-medium text-6xl text-center w-1/2">
+        COMECE O SEU PEDIDO, ESCOLHENDO O QUE DESEJA ABAIXO.
+      </h1>
+      <section className="w-1/2 content-center-row flex-wrap gap-32">
         <ChoiceBtn
           name="PASTEL SALGADO"
           route="/pastel-salgado"
-          sizeText="font-3xl"
+          sizeText="text-2xl"
         />
         <ChoiceBtn
           name="PASTEL DOCE"
           route="/pastel-doce"
-          sizeText="font-3xl"
+          sizeText="text-2xl"
         />
-        <ChoiceBtn name="CESTA DE PASTÉIS" route="/cesta" sizeText="font-3xl" />
-        <ChoiceBtn name="BEBIDAS" route="/bebidas" sizeText="font-3xl" />
+        <ChoiceBtn name="CESTA DE PASTÉIS" route="/cesta" sizeText="text-2xl" />
+        <ChoiceBtn name="BEBIDAS" route="/bebidas" sizeText="text-2xl" />
       </section>
       <LightLogo />
     </main>

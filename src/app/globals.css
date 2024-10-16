@@ -34,11 +34,23 @@ body {
     color: var(--primary);
   }
 
-  .content-center {
+  .text-secondary {
+    color: var(--secondary);
+  }
+
+  .text-terciary {
+    color: var(--terciary);
+  }
+
+  .content-center-col {
     @apply flex flex-col justify-center items-center;
   }
 
+  .content-center-row {
+    @apply flex flex-row justify-center items-center;
+  }
+
   .main-cta {
-    @apply bg-secondary text-primary content-center font-bold text-3xl h-12 py-4 px-24 rounded-xl;
+    @apply bg-secondary text-primary content-center-col font-bold text-3xl h-12 py-4 px-24 rounded-xl;
   }
 }

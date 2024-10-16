@@ -9,10 +9,12 @@ interface BtnProps {
 const ChoiceBtn = ({ route, name, sizeText }: BtnProps) => {
   return (
     <Link
-      className="bg-light text-primary content-center h-12 py-2 px-12 rounded-xl"
+      className="bg-light text-primary content-center-col h-64 w-64 rounded-xl shadow-xl"
       href={`${route}`}
     >
-      <p className={`font-bold ${sizeText}`}>{name}</p>
+      <p className={`font-bold ${sizeText} text-secondary w-1/2 text-center`}>
+        {name}
+      </p>
     </Link>
   );
 };

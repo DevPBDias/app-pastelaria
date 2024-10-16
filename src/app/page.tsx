@@ -4,7 +4,7 @@ import logo from "@/assets/icons/Logo.png";
 
 const Home = () => {
   return (
-    <main className="hero-bg-color w-full h-dvh content-center">
+    <main className="hero-bg-color w-full h-dvh content-center-col">
       <section className="content-center gap-12">
         <Image
           src={logo}
