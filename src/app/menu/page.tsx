@@ -11,18 +11,14 @@ const Menu = () => {
         COMECE O SEU PEDIDO, ESCOLHENDO O QUE DESEJA ABAIXO.
       </h1>
       <section className="w-1/2 content-center-row flex-wrap gap-32">
+        <ChoiceBtn name="PASTEL SALGADO" route="/salt" sizeText="text-2xl" />
+        <ChoiceBtn name="PASTEL DOCE" route="/sweet" sizeText="text-2xl" />
         <ChoiceBtn
-          name="PASTEL SALGADO"
-          route="/pastel-salgado"
+          name="CESTA DE PASTÉIS"
+          route="/basket"
           sizeText="text-2xl"
         />
-        <ChoiceBtn
-          name="PASTEL DOCE"
-          route="/pastel-doce"
-          sizeText="text-2xl"
-        />
-        <ChoiceBtn name="CESTA DE PASTÉIS" route="/cesta" sizeText="text-2xl" />
-        <ChoiceBtn name="BEBIDAS" route="/bebidas" sizeText="text-2xl" />
+        <ChoiceBtn name="BEBIDAS" route="/drinks" sizeText="text-2xl" />
       </section>
       <LightLogo />
     </main>

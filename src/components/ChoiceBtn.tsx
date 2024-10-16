@@ -12,7 +12,7 @@ const ChoiceBtn = ({ route, name, sizeText }: BtnProps) => {
       className="bg-light text-primary content-center-col h-64 w-64 rounded-xl shadow-xl"
       href={`${route}`}
     >
-      <p className={`font-bold ${sizeText} text-secondary w-1/2 text-center`}>
+      <p className={`font-bold ${sizeText} text-secondary w-2/3 text-center`}>
         {name}
       </p>
     </Link>
